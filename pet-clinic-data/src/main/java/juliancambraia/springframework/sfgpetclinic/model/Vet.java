@@ -1,4 +1,4 @@
-package juliancambraia.springframework.model;
+package juliancambraia.springframework.sfgpetclinic.model;
 
 
 /**
