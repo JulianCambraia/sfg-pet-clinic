@@ -3,7 +3,7 @@ package juliancambraia.springframework.sfgpetclinic.model;
 /**
  * @author juliancambraia
  */
-public class Person {
+public class Person extends BaseEntity {
     private String firstname;
     private String lastname;
 
