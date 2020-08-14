@@ -139,3 +139,9 @@ Desktop.ini
 # ESLint
 ######################
 .eslintcache
+/pet-clinic-web/pom.xml.releaseBackup
+/pet-clinic-web/target/
+/pet-clinic-web/target/pet-clinic-web-0.0.2.jar.original
+/pet-clinic-web/pom.xml.releaseBackup
+/pom.xml.releaseBackup
+/release.properties
