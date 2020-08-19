@@ -2,13 +2,10 @@ package juliancambraia.springframework.sfgpetclinic.services;
 
 import juliancambraia.springframework.sfgpetclinic.model.Pet;
 
-import java.util.Set;
-
-public interface PetService {
-
-    Pet findById(Long id);
-
-    Pet save(Pet pet);
-
-    Set<Pet> findAll();
+/**
+ * Interface Pet Generics
+ *
+ * @author juliancambraia
+ */
+public interface PetService extends CrudService<Pet, Long> {
 }
