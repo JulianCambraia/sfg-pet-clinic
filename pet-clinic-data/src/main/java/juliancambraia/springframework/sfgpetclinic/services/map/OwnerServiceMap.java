@@ -6,6 +6,8 @@ import juliancambraia.springframework.sfgpetclinic.services.CrudService;
 import java.util.Set;
 
 /**
+ * Service OwnerServiceMap que implementa todos os métodos
+ *
  * @author juliancambraia
  */
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements CrudService<Owner, Long> {

@@ -6,6 +6,8 @@ import java.util.Map;
 import java.util.Set;
 
 /**
+ * Classe Generic Abstract
+ *
  * @param <T>
  * @param <ID>
  * @author juliancambraia
