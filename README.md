@@ -1,2 +1,3 @@
 # sfg-pet-clinic
-SFT Pet Clinic
+SFG Pet Clinic
+Aplicação Spring Framework 5
