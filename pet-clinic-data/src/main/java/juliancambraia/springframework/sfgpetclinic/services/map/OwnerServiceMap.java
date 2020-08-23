@@ -2,6 +2,7 @@ package juliancambraia.springframework.sfgpetclinic.services.map;
 
 import juliancambraia.springframework.sfgpetclinic.model.Owner;
 import juliancambraia.springframework.sfgpetclinic.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
@@ -10,6 +11,8 @@ import java.util.Set;
  *
  * @author juliancambraia
  */
+
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
     @Override
