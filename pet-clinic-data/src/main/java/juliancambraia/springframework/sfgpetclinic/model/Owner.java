@@ -11,6 +11,7 @@ import java.util.Set;
 /**
  * @author juliancambraia
  */
+
 @Entity
 @Table(name = "owners")
 public class Owner extends Person {

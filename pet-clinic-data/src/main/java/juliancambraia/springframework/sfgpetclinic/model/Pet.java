@@ -10,6 +10,7 @@ import java.time.LocalDate;
 /**
  * @author juliancambraia
  */
+
 @Entity
 @Table(name = "pets")
 public class Pet extends BaseEntity {
