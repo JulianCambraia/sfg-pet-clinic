@@ -5,6 +5,8 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 
 /**
+ * Entidade Types
+ *
  * @author juliancambraia
  */
 

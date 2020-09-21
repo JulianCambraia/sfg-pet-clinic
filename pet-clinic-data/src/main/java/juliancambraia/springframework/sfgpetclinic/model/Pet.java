@@ -8,6 +8,8 @@ import javax.persistence.Table;
 import java.time.LocalDate;
 
 /**
+ * Entidade Pets
+ *
  * @author juliancambraia
  */
 

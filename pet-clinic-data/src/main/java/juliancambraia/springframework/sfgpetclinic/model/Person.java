@@ -4,6 +4,8 @@ import javax.persistence.Column;
 import javax.persistence.MappedSuperclass;
 
 /**
+ * Entidade Person
+ *
  * @author juliancambraia
  */
 

@@ -9,6 +9,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
+ * Entidade Owners
+ *
  * @author juliancambraia
  */
 
