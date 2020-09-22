@@ -2,6 +2,7 @@ package juliancambraia.springframework.sfgpetclinic.services.map;
 
 import juliancambraia.springframework.sfgpetclinic.model.Visit;
 import juliancambraia.springframework.sfgpetclinic.services.VisitService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
@@ -9,13 +10,8 @@ import java.util.Set;
  * @author juliancambraia
  */
 
+@Service
 public class VisitMapService extends AbstractMapService<Visit, Long> implements VisitService {
-
-    private final VisitService visitService;
-
-    public VisitMapService(VisitService visitService) {
-        this.visitService = visitService;
-    }
 
     @Override
     public Set<Visit> findAll() {
@@ -39,7 +35,7 @@ public class VisitMapService extends AbstractMapService<Visit, Long> implements 
             throw new RuntimeException("Invalid Visit!");
         }
 
-        return visitService.save(visit);
+        return super.save(visit);
     }
 
     @Override
